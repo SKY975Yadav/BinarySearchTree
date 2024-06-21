@@ -23,6 +23,7 @@ public class FixBSTWithTwoNodesSwapped {
             int temp = first.data;
             first.data = second.data;
             second.data = temp;
+            
         }
     }
     public static void inorderTraversal(Node root, List<Node> list){
